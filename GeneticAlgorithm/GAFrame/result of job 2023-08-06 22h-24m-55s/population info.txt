@@ -1,0 +1,8 @@
+{'Population Info': {'Type': 'Population', 'Population Encoding:': 'BG', 'Population ChromNum': 1, 'Population Field:': array([[18. , 15. ],
+       [-3. ,  4.1],
+       [12.1,  5.8],
+       [ 0. ,  0. ],
+       [ 0. ,  0. ],
+       [ 1. ,  1. ],
+       [ 1. ,  1. ],
+       [ 0. ,  0. ]]), 'Population size:': 100}}
