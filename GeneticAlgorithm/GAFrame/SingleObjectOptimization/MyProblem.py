@@ -17,9 +17,9 @@ class MyProblem(ea.Problem):  # 继承Problem父类
     def __init__(self):
         name = 'MyProblem'  # 函数名称，可以随意设置
         M = 1  # 目标维数
-        max_or_min = [-1]  # 最大化为-1，最小化为1
+        max_or_min = [-1] # 最大化为-1，最小化为1
         Dim = 2  # 决策变量维数
-        varTypes = [0] * Dim  # 决策变量类型，0为连续，1为离散
+        varTypes = [0] * Dim  # 决策变量类型，0为连续（实数），1为离散（整数）
         lb = [-3, 4.1]  # 决策变量下界
         ub = [12.1, 5.8]  # 上界
         lbin = [1] * Dim  # 决策变量是否包括下边界，1表示包括，0表示不包括

@@ -1,6 +1,6 @@
 import numpy as np
 import geatpy as ea
-from GAFrame.my_problem import MyProblem
+from GAFrame.SingleObjectOptimization.MyProblem import MyProblem
 
 # =================实例化问题对象====================
 problem = MyProblem()
@@ -11,6 +11,8 @@ MAXGEN = 200  # 最大迭代次数
 logTras = 1  # 每隔多少代记录一次日志信息
 algorithm = ea.soea_EGA_templet(problem, ea.Population(Encoding=Encoding, NIND=NIND), MAXGEN=MAXGEN, logTras=logTras)
 # =====================求解==========================
+# algorithm.mutOper.Pm = 0.2 # 修改变异算子的变异概率
+# algorithm.recOper.XOVR = 0.9 # 修改交叉算子的交叉概率
 res = ea.optimize(algorithm, verbose=True, drawing=1, outputMsg=True, drawLog=False)
 """
     输入参数:

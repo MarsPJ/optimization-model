@@ -1,6 +1,19 @@
 # 遗传算法
 
+**善用help(FunctionName)很重要**
+
 **需要的参数**
+
+- 算法（单目标规划和多目标规划可供选择的算法不一样）
+
+  ![](C:\Users\Mars\Desktop\优化类模型\GeneticAlgorithm\img\1.webp)
+
+  - 单目标规划
+    - 常用ea.soea_EGA_templet
+  - 多目标规划
+    - ea.moea_NSGA2_templet
+    - ea.moea_NSGA3_templet
+    - ea.moea_MOEAD_templet
 
 - 种群数量 NIND
 
